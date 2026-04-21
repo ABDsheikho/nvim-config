@@ -32,7 +32,7 @@ return {
       { 'io', group = 'TS text[O]bject', mode = { 'v', 'o' } },
       { '[o', group = 'TS text[O]bject', mode = { 'n', 'v', 'o' } },
       { ']o', group = 'TS text[O]bject', mode = { 'n', 'v', 'o' } },
-      { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
+      { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } }, -- Enable gitsigns recommended keymaps first
       { 'gr', group = 'LSP Actions', mode = { 'n' } },
     },
   },
